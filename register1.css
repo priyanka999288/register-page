@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://media.istockphoto.com/id/901110184/vector/shiny-abstract-gold-stripe-on-dark-background-vector-illustration.jpg?s=612x612&w=0&k=20&c=gfoWzRf0I3f37K8lsXh1e2zoXqbTw70buG0_x3KRQI8=");
+  background-size: 100%;
+  background-size: -200px,0px;
+}
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  background: whitesmoke shadow;
+  padding: 28px;
+ color:#fff;
+	cursor:pointer;
+	border: 3px solid rgb(244, 245, 239);
+	box-shadow:1px 1px 5px rgba(0,0,0,0.10);
+}
+h1 {
+  text-align: center;
+}
+label {
+  display: block;
+  margin-top: 16px;
+}
+input, select {
+  width: 100%;
+  padding: 9px;
+  margin-top: 8px;
+  border: 1px solid #eceee7;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.gender-select {
+  display: flex;
+  gap: 15px;
+  margin-top: 8px;
+}
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background: #1961ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background: #033dc3;
+}
+#message {
+  margin-top: 12px;
+  color: red;
+  text-align: center;
+}
